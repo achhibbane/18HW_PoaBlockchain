@@ -1,0 +1,37 @@
+=============== Feb 18, 2021 (PST) ===============
+07:51:41.420556 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+07:51:41.429849 db@open opening
+07:51:41.432595 version@stat F·[] S·0B[] Sc·[]
+07:51:41.455183 db@janitor F·2 G·0
+07:51:41.455231 db@open done T·25.334489ms
+08:19:42.493969 db@close closing
+08:19:42.494411 db@close done T·445.373µs
+=============== Feb 18, 2021 (PST) ===============
+08:20:34.695346 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+08:20:34.696041 version@stat F·[] S·0B[] Sc·[]
+08:20:34.696078 db@open opening
+08:20:34.696198 journal@recovery F·1
+08:20:34.698217 journal@recovery recovering @1
+08:20:34.726597 memdb@flush created L0@2 N·10876 S·243KiB "loc..seq,v23":"version,v1"
+08:20:34.729064 version@stat F·[1] S·243KiB[243KiB] Sc·[0.25]
+08:20:34.757760 db@janitor F·3 G·0
+08:20:34.757795 db@open done T·61.700036ms
+08:33:03.226608 db@close closing
+08:33:03.227713 db@close done T·1.101647ms
+=============== Feb 18, 2021 (PST) ===============
+08:36:27.787646 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+08:36:27.788636 version@stat F·[1] S·243KiB[243KiB] Sc·[0.25]
+08:36:27.788665 db@open opening
+08:36:27.788774 journal@recovery F·1
+08:36:27.790467 journal@recovery recovering @3
+08:36:27.803134 memdb@flush created L0@5 N·3721 S·101KiB "loc..seq,v10889":"n:\xff..ing,v11230"
+08:36:27.806286 version@stat F·[2] S·344KiB[344KiB] Sc·[0.50]
+08:36:27.833263 db@janitor F·4 G·0
+08:36:27.833296 db@open done T·44.617812ms
+08:36:27.849378 table@compaction L0·2 -> L1·0 S·344KiB Q·14600
+08:36:27.862677 table@build created L1@8 N·5998 S·216KiB "loc..seq,v10889":"version,v1"
+08:36:27.862753 version@stat F·[0 1] S·216KiB[0B 216KiB] Sc·[0.00 0.00]
+08:36:27.868554 table@compaction committed F-1 S-128KiB Ke·0 D·8599 T·19.130319ms
+08:36:27.869064 table@remove removed @2
+11:07:19.949547 db@close closing
+11:07:19.951129 db@close done T·1.579218ms
